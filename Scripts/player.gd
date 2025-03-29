@@ -24,9 +24,9 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.play("jump")
 	else:
 		if input_direction == 0:
-			animated_sprite.play("attackrun")
+			animated_sprite.play("new_run")
 		else:
-			animated_sprite.play("run")
+			animated_sprite.play("new_run")
 			
 	# Handle jump.
 	if Input.is_action_just_pressed("up"):

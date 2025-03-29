@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=4 uid="uid://b8itu56evn2rq"]
+[gd_scene load_steps=34 format=4 uid="uid://b8itu56evn2rq"]
 
 [ext_resource type="PackedScene" uid="uid://j8g7r024we6g" path="res://Scenes/player.tscn" id="1_ebmjs"]
 [ext_resource type="Texture2D" uid="uid://bgl3k5y08esp0" path="res://Assets/sprite/background/New Background/1.png" id="1_rfjv2"]
@@ -6,13 +6,117 @@
 [ext_resource type="Texture2D" uid="uid://d3nfte45c8yok" path="res://Assets/sprite/background/New Background/3.png" id="3_nb51f"]
 [ext_resource type="Texture2D" uid="uid://gwf0nu2e27kr" path="res://Assets/sprite/leaf/ELR_FallLeaf.png" id="4_1l0tm"]
 [ext_resource type="Texture2D" uid="uid://dk1oxlgvhsg42" path="res://Assets/sprite/Main coco sheet.png" id="4_i6g32"]
-[ext_resource type="Texture2D" uid="uid://e35purouopn3" path="res://Assets/sprite/background/New Background/4.png" id="4_nnt18"]
-[ext_resource type="Texture2D" uid="uid://c0ijk6vc3dvox" path="res://Assets/sprite/background/New Background/5.png" id="5_ewbju"]
-[ext_resource type="Texture2D" uid="uid://dyyvpkno5g8q3" path="res://Assets/sprite/background/New Background/6.png" id="6_85qyi"]
+[ext_resource type="Texture2D" uid="uid://dhohiy4ajmrfk" path="res://Assets/sprite/background with fireworks coco 1.png" id="5_rku1e"]
 [ext_resource type="PackedScene" uid="uid://cxg5y6nq0ngck" path="res://Scenes/enemy.tscn" id="7_1l0tm"]
 [ext_resource type="Texture2D" uid="uid://d0l6env5t2hh0" path="res://Assets/sprite/background/New Background/7.png" id="7_iivbl"]
 [ext_resource type="Texture2D" uid="uid://dtgwp1cwyf5su" path="res://Assets/sprite/bridge.png" id="7_o5yvi"]
 [ext_resource type="PackedScene" uid="uid://dorf7rfn546k1" path="res://Scenes/memoryphoto.tscn" id="8_v158k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rfjv2"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(0, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1phco"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(285, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nb51f"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(570, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nnt18"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(855, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewbju"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(1140, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85qyi"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(1425, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iivbl"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(1710, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7nbq1"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(1995, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_exi56"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(2280, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7t8sx"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(2565, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mg4q0"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(2850, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vm72l"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(3135, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_22asu"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(3420, 0, 285, 450)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkdbe"]
+atlas = ExtResource("5_rku1e")
+region = Rect2(3705, 0, 285, 450)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_81klo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rfjv2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1phco")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nb51f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nnt18")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ewbju")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85qyi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iivbl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7nbq1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_exi56")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7t8sx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mg4q0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vm72l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_22asu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkdbe")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1l0tm"]
 texture = ExtResource("4_i6g32")
@@ -78,6 +182,7 @@ anim_offset_max = 1.0
 [node name="game" type="Node2D"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+follow_viewport_scale = 0.4
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2(0, -41)
@@ -103,29 +208,18 @@ motion_mirroring = Vector2(571, 0)
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
 texture = ExtResource("3_nb51f")
 
-[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(0, -41)
-motion_scale = Vector2(0.9, 1)
-motion_mirroring = Vector2(571, 0)
-
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
-texture = ExtResource("4_nnt18")
-
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2(0, -41)
 motion_scale = Vector2(1.2, 1)
 motion_mirroring = Vector2(571, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
-texture = ExtResource("5_ewbju")
-
-[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(0, -41)
-motion_scale = Vector2(1.5, 1)
-motion_mirroring = Vector2(571, 0)
-
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
-texture = ExtResource("6_85qyi")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+position = Vector2(-51, -70)
+scale = Vector2(0.721053, 0.688889)
+sprite_frames = SubResource("SpriteFrames_81klo")
+autoplay = "default"
+frame_progress = 0.0197136
+speed_scale = 0.7
 
 [node name="ParallaxLayer7" type="ParallaxLayer" parent="ParallaxBackground"]
 position = Vector2(0, -41)
