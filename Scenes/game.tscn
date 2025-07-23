@@ -1,16 +1,167 @@
-[gd_scene load_steps=34 format=4 uid="uid://b8itu56evn2rq"]
+[gd_scene load_steps=66 format=4 uid="uid://b8itu56evn2rq"]
 
+[ext_resource type="Texture2D" uid="uid://bu3ati2ap5api" path="res://Assets/sprite/background/Dark Background/BACKGROUND WITH DARK FIREWORKS COCO 2.png" id="1_1phco"]
 [ext_resource type="PackedScene" uid="uid://j8g7r024we6g" path="res://Scenes/player.tscn" id="1_ebmjs"]
-[ext_resource type="Texture2D" uid="uid://bgl3k5y08esp0" path="res://Assets/sprite/background/New Background/1.png" id="1_rfjv2"]
+[ext_resource type="Texture2D" uid="uid://dt1xj2ghukev2" path="res://Assets/sprite/Assets/LIFE LINE sprite sheet COCO 1.png" id="1_rfjv2"]
 [ext_resource type="Texture2D" uid="uid://dwbs14oamhirr" path="res://Assets/sprite/background/New Background/2.png" id="2_1phco"]
+[ext_resource type="Texture2D" uid="uid://b27p7njtv2mpl" path="res://Assets/sprite/background/Dark Background/BACKGROUND WITH DARK FIREWORKS COCO 2-Sheet.png" id="2_nb51f"]
 [ext_resource type="Texture2D" uid="uid://d3nfte45c8yok" path="res://Assets/sprite/background/New Background/3.png" id="3_nb51f"]
+[ext_resource type="Texture2D" uid="uid://jmxys5rchq4g" path="res://Assets/sprite/Assets/backround ccoco ui 1.png" id="3_rfjv2"]
 [ext_resource type="Texture2D" uid="uid://gwf0nu2e27kr" path="res://Assets/sprite/leaf/ELR_FallLeaf.png" id="4_1l0tm"]
 [ext_resource type="Texture2D" uid="uid://dk1oxlgvhsg42" path="res://Assets/sprite/Main coco sheet.png" id="4_i6g32"]
 [ext_resource type="Texture2D" uid="uid://dhohiy4ajmrfk" path="res://Assets/sprite/background with fireworks coco 1.png" id="5_rku1e"]
 [ext_resource type="PackedScene" uid="uid://cxg5y6nq0ngck" path="res://Scenes/enemy.tscn" id="7_1l0tm"]
-[ext_resource type="Texture2D" uid="uid://d0l6env5t2hh0" path="res://Assets/sprite/background/New Background/7.png" id="7_iivbl"]
 [ext_resource type="Texture2D" uid="uid://dtgwp1cwyf5su" path="res://Assets/sprite/bridge.png" id="7_o5yvi"]
 [ext_resource type="PackedScene" uid="uid://dorf7rfn546k1" path="res://Scenes/memoryphoto.tscn" id="8_v158k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bu0y5"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(0, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6a4tp"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(64, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_631el"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(128, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vs120"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(192, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2cs8"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(256, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_32sfa"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(320, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_titue"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(384, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tt7mg"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(448, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_htg8p"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(512, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jcvim"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(576, 0, 64, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fnkle"]
+atlas = ExtResource("1_rfjv2")
+region = Rect2(640, 0, 64, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wr3wg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bu0y5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6a4tp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_631el")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vs120")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2cs8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_32sfa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_titue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tt7mg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_htg8p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jcvim")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fnkle")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_81klo"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(0, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tgy6u"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(1366, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cwurv"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(2732, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mucmn"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(4098, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m3t6"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(5464, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ese38"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(6830, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oeip8"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(8196, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xe308"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(9562, 0, 1366, 766)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d3cha"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_81klo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tgy6u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cwurv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mucmn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m3t6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ese38")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oeip8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xe308")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rfjv2"]
 atlas = ExtResource("5_rku1e")
@@ -115,7 +266,71 @@ animations = [{
 }],
 "loop": true,
 "name": &"default",
-"speed": 3.0
+"speed": 9.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rku1e"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(0, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d3cha"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(1366, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i26dy"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(2732, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmoi6"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(4098, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6uxt2"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(5464, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ym3tv"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(6830, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwj6o"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(8196, 0, 1366, 766)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3c8l"]
+atlas = ExtResource("2_nb51f")
+region = Rect2(9562, 0, 1366, 766)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bu0y5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rku1e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d3cha")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i26dy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmoi6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6uxt2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ym3tv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwj6o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3c8l")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
 }]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1l0tm"]
@@ -168,7 +383,7 @@ gradient = SubResource("Gradient_h4fw4")
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_wowpa"]
 particle_flag_disable_z = true
 emission_shape = 3
-emission_box_extents = Vector3(500, 200, 1)
+emission_box_extents = Vector3(1000, 400, 1)
 direction = Vector3(-1, 0, 0)
 spread = 21.667
 initial_velocity_min = 20.0
@@ -181,6 +396,30 @@ anim_offset_max = 1.0
 
 [node name="game" type="Node2D"]
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(101.511, -150.495)
+scale = Vector2(1.89097, 2.06315)
+sprite_frames = SubResource("SpriteFrames_wr3wg")
+autoplay = "default"
+frame_progress = 0.0809442
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+visible = false
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground2"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground2/ParallaxLayer"]
+position = Vector2(-8, -50)
+texture = ExtResource("1_1phco")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground2"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground2/ParallaxLayer2"]
+position = Vector2(-11, -50)
+sprite_frames = SubResource("SpriteFrames_d3cha")
+autoplay = "default"
+frame_progress = 0.483896
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 follow_viewport_scale = 0.4
 
@@ -190,9 +429,12 @@ motion_scale = Vector2(0, 1)
 motion_mirroring = Vector2(571, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
-texture = ExtResource("1_rfjv2")
+position = Vector2(-253, 21)
+scale = Vector2(0.0718179, 0.0718179)
+texture = ExtResource("3_rfjv2")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
 position = Vector2(0, -41)
 motion_scale = Vector2(0.5, 1)
 motion_mirroring = Vector2(571, 0)
@@ -201,6 +443,7 @@ motion_mirroring = Vector2(571, 0)
 texture = ExtResource("2_1phco")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
 position = Vector2(0, -41)
 motion_scale = Vector2(0.7, 1)
 motion_mirroring = Vector2(571, 0)
@@ -218,15 +461,20 @@ position = Vector2(-51, -70)
 scale = Vector2(0.721053, 0.688889)
 sprite_frames = SubResource("SpriteFrames_81klo")
 autoplay = "default"
-frame_progress = 0.0197136
+frame_progress = 0.998287
 speed_scale = 0.7
 
 [node name="ParallaxLayer7" type="ParallaxLayer" parent="ParallaxBackground"]
+visible = false
 position = Vector2(0, -41)
 motion_mirroring = Vector2(571, 0)
 
-[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer7"]
-texture = ExtResource("7_iivbl")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="ParallaxBackground/ParallaxLayer7"]
+position = Vector2(-311, -11)
+scale = Vector2(0.594436, 0.501305)
+sprite_frames = SubResource("SpriteFrames_bu0y5")
+autoplay = "default"
+frame_progress = 0.274065
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 position = Vector2(-2, 0)
@@ -241,18 +489,20 @@ position = Vector2(-56, 61)
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="player"]
 material = SubResource("CanvasItemMaterial_v158k")
-position = Vector2(-25, -75)
+position = Vector2(1, -49)
 amount = 150
 texture = ExtResource("4_1l0tm")
 visibility_rect = Rect2(-350, -100, 1100, 200)
 trail_lifetime = 0.73
 process_material = SubResource("ParticleProcessMaterial_wowpa")
 
+[node name="Node2D" type="Node2D" parent="player"]
+
 [node name="Camera2D" type="Camera2D" parent="player"]
-position = Vector2(-19, -49)
-zoom = Vector2(3, 3)
-limit_top = -161
-limit_bottom = 163
+position = Vector2(-77, -28)
+zoom = Vector2(1.5, 1.5)
+limit_top = -400
+limit_bottom = 400
 
 [node name="items" type="Node2D" parent="."]
 

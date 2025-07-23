@@ -51,6 +51,8 @@ func _physics_process(delta: float) -> void:
 				velocity.x = move_toward(velocity.x, target_speed, curr_acceleration*delta);
 		else: 
 			velocity.x = move_toward(velocity.x, 0, curr_brake*delta)
+			
+
 	# Apply Movement 
 	#if input_direction:
 	#	velocity.x = input_direction * SPEED
