@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://cxg5y6nq0ngck"]
 
-[ext_resource type="Texture2D" path="res://Assets/sprite/player animation coco.png" id="1_hghv2"]
+[ext_resource type="Texture2D" uid="uid://dks6u2qu8s1w7" path="res://Assets/sprite/player animation coco.png" id="1_hghv2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hghv2"]
 atlas = ExtResource("1_hghv2")
@@ -36,5 +36,4 @@ animations = [{
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_287tu")
 autoplay = "default"
-frame = 2
-frame_progress = 0.724582
+frame_progress = 0.885928

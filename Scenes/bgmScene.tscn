@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://de788xrrb33md"]
+
+[ext_resource type="AudioStream" uid="uid://dnivmo1tqfxqf" path="res://Assets/music/latin-mexican-salsa-background-music-358415.mp3" id="1_nruud"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_nruud")
+autoplay = true

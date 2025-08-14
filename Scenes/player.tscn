@@ -181,6 +181,8 @@ radius = 7.0
 script = ExtResource("1_cvnsp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2.5, -3)
+scale = Vector2(1.15625, 1.1875)
 sprite_frames = SubResource("SpriteFrames_3smsa")
 animation = &"new_run"
 frame_progress = 0.86345
